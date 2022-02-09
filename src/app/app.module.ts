@@ -5,12 +5,14 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { TablaClientesComponent } from './clientes/tabla-clientes/tabla-clientes.component';
 import { CrearClienteComponent } from './clientes/crear-cliente/crear-cliente.component';
+import { StatsComponent } from './clientes/stats/stats.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TablaClientesComponent,
-    CrearClienteComponent
+    CrearClienteComponent,
+    StatsComponent
   ],
   imports: [
     BrowserModule,

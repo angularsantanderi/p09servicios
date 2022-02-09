@@ -18,4 +18,12 @@ export class ClientesService {
     return this.clientes;
   }
 
+  setCliente(cliente: any): void {
+    this.clientes.push(cliente);
+  }
+
+  getNumeroClientes() {
+    return this.clientes.length;
+  }
+
 }
